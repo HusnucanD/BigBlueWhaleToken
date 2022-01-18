@@ -1,0 +1,164 @@
+
+.container-custom {   
+    margin-top: 63.09px;
+    padding-top: 15px;
+    color: #f6f8f8;
+}
+
+.custom-row {
+    width: 85%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 992px) {
+    .custom-row {
+        width: 100%; 
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .custom-row {
+        width: 100%; 
+        padding-top: 0px;
+    }
+}
+
+.custom-h3 {
+    margin-top: 30px;
+    color: #f1c40f; 
+    font-weight: 800;
+    font-size: 220%;
+    letter-spacing: 3.5px;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-h3 {
+        margin-top: 0px;
+        font-size: 200%;
+    }
+}
+
+.custom-ul {
+    list-style-type: none; 
+    padding-left: 0px;
+    font-size: 115%;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-ul {
+        list-style-type: none; 
+        padding-left: 0px;
+        font-size: 100%;
+    }
+}
+
+.custom-li-icon {
+    color: #f1c40f; 
+    margin-right: 7.5px;
+}
+
+.custom-big-img {
+    width: 225px; 
+    height: 225px;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 992px) {
+    .custom-big-img {
+        width: 200px; 
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .custom-big-img {
+        width: 175px; 
+        height: 175px;
+    }
+}
+
+.chain-logo {
+    width: 90px; 
+    height: 90px;
+    margin-bottom: -15px;
+}
+
+.custom-address-div {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: 25px;
+    color: #f6f8f8;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+@media screen and (max-width: 992px) {
+    .custom-address-div {
+        width: 100%;
+    }
+}
+
+.custom-address-text {
+    font-size: 80%; 
+    padding-top: 10px;
+    margin-bottom: 11px;
+}
+
+@media screen and (max-width: 400px) {
+    .custom-address-text {
+        font-size: 73%; 
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .custom-address-text {
+        font-size: 67.5%; 
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .custom-address-text {
+        font-size: 65%; 
+        padding-top: 10px;
+    }
+}
+
+.custom-button-icon {
+    color: #f1c40f; 
+}
+
+.custom-button-icon2 {
+    color: #bac4c5;
+}
+
+.custom-address-button1 {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: none;
+    color: #f6f8f8;
+    font-family: 'Nunito';
+    font-size: 80%;
+    font-weight: 600;
+    border: 0.5px solid transparent;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-top: 5px;
+}
+
+.custom-address-button1:hover {
+    border: 0.5px solid #7f8c8d;
+}
+
+.custom-focus:focus {
+    border-color: rgb(127, 143, 166);
+    outline: 0;
+    box-shadow: 0 0 0 0.20rem rgba(127, 143, 166, 0.25);
+}

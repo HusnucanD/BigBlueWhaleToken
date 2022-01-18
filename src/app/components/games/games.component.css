@@ -1,0 +1,21 @@
+
+.container-custom-games {   
+    margin-top: 63.09px;
+    padding-top: 15px;
+    color: #f6f8f8;
+    height: calc(100vh - 210px);
+}
+
+.img-custom {
+    width: 225px; 
+    margin-bottom: 5px; 
+    border-radius: 50%; 
+    border: 3px solid #f9f9f9;
+}
+
+.h-custom {
+    color: #f1c40f; 
+    font-weight: 800;
+    font-size: 220%;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}

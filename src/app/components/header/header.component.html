@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom shadow">
+    <div class="container">
+        <a class="navbar-brand" (click)="brand_cliked()">
+            <img src="../../../assets/images/whale_icon.svg" width="45" height="45" class="d-inline-block align-top" alt="">
+            <span class="navbar-icon-text" style="font-weight: 600;">BBWT</span>
+        </a>  
+        <button class="navbar-toggler d-lg-none navbar-toggler-custom" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
+            <fa-icon [icon]="faBars" class="toggler-icon-custom" ></fa-icon>
+        </button>
+        <div class="collapse navbar-collapse" [ngbCollapse]="isMenuCollapsed">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item" [ngClass]="{'active': metricsClicked }">
+                    <a class="nav-link nav-link-custom" style="font-weight: 600;" (click)="metrics_cliked()">
+                        Metrics
+                    </a>
+                </li>
+                <li class="nav-item" [ngClass]="{'active': questionsClicked }">
+                    <a class="nav-link nav-link-custom" style="font-weight: 600;" (click)="questions_cliked()">
+                        Questions
+                    </a>
+                </li>  
+                <li class="nav-item" [ngClass]="{'active': communityClicked }">
+                    <a class="nav-link nav-link-custom" style="font-weight: 600;" (click)="community_clicked()">
+                        Community
+                    </a>
+                </li>                             
+            </ul>
+            <div class="custom-button-div">
+                <a class="custom-play-button" (click)="play_clicked()">
+                    <fa-icon [icon]="faGamepad" style="color: #e988fe; margin-right: 5px;"></fa-icon>
+                    <span>Games</span>
+                </a>
+            </div>
+            <div class="custom-button-div">               
+                <a class="custom-buy-button" 
+                    href="{{ pancakeSwapAddress }}" 
+                    target="_blank" rel=”nofollow”>
+                    <fa-icon [icon]="faCoins" style="color: #f1c40f; margin-right: 5px;"></fa-icon>
+                    <span>Buy BBWT</span>
+                </a>
+            </div>            
+        </div>
+    </div>
+</nav>

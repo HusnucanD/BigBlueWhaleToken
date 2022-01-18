@@ -1,0 +1,32 @@
+
+.faq_question {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    margin-top: 10px;
+    border-left: 0.5px solid #7f8c8d;
+    border-right: 0.5px solid #7f8c8d;
+    border-top: 0.5px solid #7f8c8d;;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 90%;
+    transition: 0.175s;
+}
+
+.faq_question:hover {
+    background: rgba(0, 0, 0, 0.175);
+}
+
+.border-button-question {
+    border-bottom: 0.5px solid #7f8c8d;;
+}
+
+.faq_answer {
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.1);
+    border-left: 0.5px solid #7f8c8d;
+    border-right: 0.5px solid #7f8c8d;
+    border-bottom: 0.5px solid #7f8c8d;;
+    font-size: 85%;
+    display: none;
+}

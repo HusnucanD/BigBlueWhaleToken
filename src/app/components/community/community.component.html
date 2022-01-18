@@ -1,0 +1,54 @@
+
+<div id="community"class="row" style="margin-top: 40px; margin-bottom: 40px;">
+    <div style="width: 100%; text-align: center;">
+        <p style="font-size: 225%; margin-bottom: 2.5px;">Community</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6" style="margin-bottom: 15px;">
+                <a (click)="clickCopy(email)" class="official-mail">
+                    Official Email: <span style="text-decoration: underline;">{{ email }}</span>
+                    <fa-icon style="display:inline;" [icon]="faCopy" class="copy-email-icon"></fa-icon>
+                </a>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6" style="margin-bottom: 15px;">
+                <a (click)="clickCopy(donate)" class="donate-address">
+                    <span style="font-size: 105%;">Donation Address</span>
+                    <span style="text-decoration: underline; display: block;">
+                        {{ donate }}
+                    </span>          
+                </a>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <div style="display: inline-block; padding-left: 5px; padding-right: 5px; margin-top: 7.5px;">
+                    <a class="btn custom-address-button2 custom-focus" 
+                        href="https://twitter.com/bwptoken"
+                        target="_blank" rel=”nofollow”>
+                        <img src="../../../assets/images/twitter.png" class="rounded community-icon" 
+                        alt="Twitter Address">
+                        <span>Announces</span>
+                    </a> 
+                </div>
+                <div style="display: inline-block; padding-left: 5px; padding-right: 5px; margin-top: 7.5px;">
+                    <a class="btn custom-address-button2 custom-focus" 
+                        href="https://t.me/joinchat/Nsm9Z-orHPhjNWU0"
+                        target="_blank" rel=”nofollow”>
+                        <img src="../../../assets/images/telegram.png" class="rounded community-icon" 
+                        alt="Telegram Address">
+                        <span>Community En</span>
+                    </a>  
+                </div> 
+                <div style="display: inline-block; padding-left: 5px; padding-right: 5px; margin-top: 7.5px;">
+                    <a class="btn custom-address-button2 custom-focus" href="https://t.me/joinchat/isaIKQjxSaJlZGU0" 
+                        target="_blank" rel=”nofollow”>
+                        <img src="../../../assets/images/telegram.png" class="rounded community-icon" 
+                        alt="Telegram Address">
+                        <span>Community Tr</span>
+                    </a> 
+                </div>
+            </div>         
+        </div>
+    </div>
+</div>

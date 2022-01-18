@@ -1,0 +1,128 @@
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #27ae60;
+    display: inline-block;
+    position: absolute;
+    left: 19px;
+    width: 2px;
+    height: calc(100% + 30px);
+    z-index: 400;
+}
+
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 0px;
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: #1b7741;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #27ae60;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+ul.timeline-todo {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline-todo:before {
+    content: ' ';
+    background: #7f8c8d;
+    display: inline-block;
+    position: absolute;
+    left: 19px;
+    width: 2px;
+    height: calc(100% + 15px);
+    z-index: 400;
+}
+
+ul.timeline-todo > li {
+    margin: 20px 0;
+    padding-left: 0px;
+}
+
+ul.timeline-todo > li:before {
+    content: ' ';
+    background: #566061;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #7f8c8d;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+.timeline-div {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background: rgba(0, 0, 0, 0.2); 
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.timeline-element-title {
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #27ae60;
+    font-size: 120%;
+    line-height: 20px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.timeline-element-date {
+    position: absolute;
+    top: 0.175rem; 
+    right: 5px;
+    font-size: 82.5%;
+    font-weight: 600;
+}
+
+.timeline-element-text {
+    text-align: left;
+    font-size: 95%;
+}
+
+@media screen and (max-width: 385px) {
+    .timeline-element-title {
+        font-size: 102.5%;
+    }
+    
+    .timeline-element-date {
+        font-size: 75%;
+    }
+    
+    .timeline-element-text {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .timeline-element-title {
+        font-size: 90%;
+    }
+    
+    .timeline-element-date {
+        font-size: 62.5%;
+    }
+    
+    .timeline-element-text {
+        font-size: 82.5%;
+    }
+}

@@ -1,0 +1,104 @@
+
+.community-icon {
+    width: 35px; 
+    height: 35px; 
+    margin-right: 5px; 
+    margin-top: -5px;
+}
+
+.custom-text-left {
+    text-align: left;
+}
+
+.custom-text-right {
+    text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-text-left {
+        text-align: center;
+        margin-bottom: 4px;
+    }
+
+    .custom-text-right {
+        text-align: center;
+        margin-bottom: 4px;
+    }
+}
+
+.custom-address-button2 {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: none;
+    color: #f6f8f8;
+    font-family: 'Nunito';
+    font-size: 110%;
+    font-weight: 600;
+    border: 0.5px solid transparent;
+    padding-top: 12.5px;
+    padding-bottom: 10px;
+}
+
+.custom-address-button2:hover {
+    border: 0.5px solid #7f8c8d;
+}
+
+.custom-focus:focus {
+    border-color: rgb(127, 143, 166);
+    outline: 0;
+    box-shadow: 0 0 0 0.20rem rgba(127, 143, 166, 0.25);
+}
+
+.official-mail {
+    font-weight: 700;
+    font-size: 95%;
+    color: #9aa4a5;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 350px) {
+    .official-mail {
+        font-size: 85%;
+    }
+}
+
+.copy-email-icon {
+    color: #9aa4a5;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 85%;
+}
+
+.official-mail:hover {
+    text-decoration: none;
+}
+
+.donate-address{
+    font-weight: 700;
+    font-size: 90%;
+    color: #f1c40f;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+    .donate-address {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .donate-address {
+        font-size: 70%;
+    }
+}
+
+.copy-donate-address {
+    color: #f1c40f;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 85%;
+}
+
+.donate-address:hover{
+    text-decoration: none;
+}

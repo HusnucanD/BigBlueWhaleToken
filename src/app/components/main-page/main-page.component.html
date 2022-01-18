@@ -1,0 +1,75 @@
+
+<div class="container-custom">
+    <div id="entry" class="container">
+        <div class="row custom-row animate__animated animate__fadeInDown">
+            <div class="col-md-4" style="text-align: center;">
+                <img src="../../../assets/images/whale.svg" class="rounded custom-big-img" alt="Big Blue Whale Token">
+            </div>
+            <div class="col-md-7">
+                <h3 class="custom-h3">BBWT</h3>
+                <ul class="custom-ul">
+                    <li class="custom-li" style="margin-bottom: 7.5px;">
+                        <fa-icon style="display:inline;" [icon]="faCertificate" class="custom-li-icon"></fa-icon>
+                        <p style="display:inline;">BBWT 
+                            <span style="font-size: 85%; line-height: 20px;">
+                                [<b style="color:#f1c40f;">B</b>ig
+                                <b style="color:#f1c40f;">B</b>lue 
+                                <b style="color:#f1c40f;">W</b>hale 
+                                <b style="color:#f1c40f;">T</b>oken]
+                            </span> 
+                            is a decentralized community meme token</p>
+                    </li>
+                    <li class="custom-li">
+                        <fa-icon style="display:inline;" [icon]="faCertificate" class="custom-li-icon"></fa-icon>
+                        <p style="display:inline;">It's fully BEP20 compliant which is the default Binance Smart Chain token standard</p>
+                    </li>
+                    <li class="custom-li">
+                        <fa-icon style="display:inline;" [icon]="faCertificate" class="custom-li-icon"></fa-icon>
+                        <p style="display:inline;">It's available on PancakeSwap</p>
+                    </li>
+                </ul>
+            </div>                      
+        </div>
+        <div class="row animate__animated animate__fadeInUp" style="margin-top: 15px;">
+            <div class="col-md-6" style="margin-left: auto; margin-right: auto; text-align: center;">
+                <img src="../../../assets/images/bsc.svg" class="chain-logo" alt="Binance Smart Chain Address">
+                <h5 style="margin-top: 10px;">Contract Address</h5>
+                <div class="custom-address-div">
+                    <p class="custom-address-text">{{ contractAddress }}</p>
+                    <button class="btn custom-address-button1 custom-focus" style="margin-right: 5px;"
+                        (click)="clickCopy()">
+                        <fa-icon style="display:inline;" [icon]="faCopy" class="custom-button-icon"></fa-icon>
+                        Copy
+                    </button>
+                    <a class="btn custom-address-button1 custom-focus" href="{{ bscScanAddress }}"
+                        style="margin-right: 5px;" target="_blank" rel=”nofollow”>
+                        <fa-icon style="display:inline;" [icon]="faChartBar" class="custom-button-icon"></fa-icon>
+                        BscScan
+                    </a>
+                    <a class="btn custom-address-button1 custom-focus" 
+                        href="{{ pancakeSwapAddress }}" 
+                        target="_blank" rel=”nofollow”>
+                        <img src="../../../assets/images/pancakeswap.svg" class="rounded" alt="PancakeSwap"
+                            style="width: 20px; height: 20px; margin-top: -7px;">
+                        PancakeSwap
+                    </a>
+                    <div style="display: block;">
+                        <a class="btn custom-address-button1 custom-focus" 
+                            href="../../../assets/documents/whitepaper.pdf" download="WhitePaper.pdf" 
+                            style="margin-left: auto; margin-right: auto;">
+                            <fa-icon style="display:inline;" [icon]="faBookOpen" class="custom-button-icon2"></fa-icon>
+                            WhitePaper
+                        </a>
+                    </div>                 
+                </div>              
+            </div>
+        </div>
+        <metrics></metrics>
+        <goal></goal>
+        <questions></questions>
+        <roadmap></roadmap>
+        <howtobuy></howtobuy>
+        <didyouknow></didyouknow>
+        <community></community>
+    </div>
+</div>

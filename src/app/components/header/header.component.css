@@ -1,0 +1,61 @@
+
+.navbar-custom {
+    background-color: #202d3a;
+    padding-bottom: 2.5px;
+    border-bottom: 1px solid #7f8c8d;
+}
+.navbar-brand {
+    cursor: pointer;
+}
+.navbar-icon-text {
+    margin-left: 5px;
+    line-height: 47.5px;
+}
+.navbar-toggler-custom {
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 1.5px;
+    border-color: #f6f8f8;
+}  
+.toggler-icon-custom {
+    font-size: 22.5px;
+    color: #f6f8f8;
+}
+
+.nav-link-custom {
+    cursor: pointer;
+}
+
+.custom-button-div {
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .custom-button-div {
+        margin-bottom: 11px;
+        margin-top: 11px;
+        margin-left: 0px;
+    }
+}
+
+.custom-buy-button {
+    color: #f1c40f;
+    font-weight: 700;
+    font-size: 110%;
+}
+
+.custom-buy-button:hover {
+    text-decoration: none;
+}
+
+.custom-play-button {
+    color: #e988fe;
+    font-weight: 700;
+    font-size: 110%;
+}
+
+.custom-play-button:hover {
+    text-decoration: none;
+    cursor: pointer;
+}

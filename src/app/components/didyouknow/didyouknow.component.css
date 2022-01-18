@@ -1,0 +1,33 @@
+
+.did-u-know-div {
+    background: rgba(0, 0, 0, 0.175);
+    border-radius: 8.5px; 
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.did-u-know-title {
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.6),
+                0px 8px 13px rgba(0,0,0,0.15),
+                0px 18px 23px rgba(0,0,0,0.15); 
+    font-size: 135%;
+}
+
+.custom-icon2 {
+    color: #f1c40f; 
+    font-size: 110%;
+}
+
+.did-u-know-title-text {
+    font-weight: 800; 
+    color: #ecf0f1; 
+    margin-left: 5px;
+}
+
+.did-u-know-text {
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.6),
+                0px 8px 13px rgba(0,0,0,0.15),
+                0px 18px 23px rgba(0,0,0,0.15); 
+    margin-bottom: 5px;
+    font-size: 90%;
+}
